@@ -6,50 +6,42 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: "Outfit";
-}
-
-main {
+	background-color: var(--light-gray-color);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	width: 100vw;
-	background-color: var(--light-gray-color);
+	margin: 0;
 }
 
-#qr-card {
+.qr-card {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--white-color);
 	padding: 18px;
-	height: 450px;
 	width: 290px;
-	border-radius: 16px;
+	border-radius: 13px;
+	text-align: center;
 }
 
-#qr-code-img {
+.qr-code-img {
 	border-radius: 8px;
 }
 
-#text-area {
-	text-align: center;
-	margin: 15px 10px 10px 10px;
-}
-
-#qr-card-header {
+.qr-card-header {
 	font-weight: 600;
 	font-size: 1.4rem;
 	color: var(--dark-blue-color);
 }
 
-#qr-card-text {
+.qr-card-text {
 	font-weight: 400;
 	color: var(--grayish-blue-color);
-	margin-top: 10px;
+	margin: 0 0 1rem 0;
 }
